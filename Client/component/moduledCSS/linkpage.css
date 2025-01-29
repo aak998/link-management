@@ -1,0 +1,257 @@
+.link-table-container {
+    background-color: #F3F7FD;
+    height:100vh;
+  }
+  
+  .responseTable{
+    padding-top: 1.3vw;
+  }
+  
+  .responseTableHeader{
+    margin-left: 3vw;
+    display: grid; 
+    width: 75vw;
+
+    grid-template-columns: repeat(7, 1fr);            
+    background-color: rgba(230, 247, 253, 1)     ;
+    height: 10vh;
+  }
+  .tablehead{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto  0;
+    font-size: 1.5vw;
+    font-weight: 540;
+}
+
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2vw;
+}
+  
+
+.image img{
+    margin: 0.1vw;
+    width:0.9vw;
+    cursor: pointer;
+}
+
+
+.responseTableBody{
+    margin-left: 3vw;
+}
+
+.responseTableData{
+    display: grid;
+    width: 75vw;
+    grid-template-columns: repeat(7, 1fr);            
+    background-color: #ffffff;     ;
+    font-size: 1.1vw;
+}
+
+.tabledata{
+        display: flex;
+        border: 0.05vw solid #F8F8F8;
+                height: 6.5vh;
+        align-items: center;
+    
+    }
+
+.responsedate{
+    margin-left: 1.5vw;
+    width: 10vw;
+}
+.OriginalLink,.ShortLink , .remarks ,   .status , .action{
+  margin-left: 1.5vw;
+}
+.clicksdata{
+    margin-left: 30%;
+}
+
+.action span{
+    margin-left: 1.5vw;
+}
+
+.action span img{
+    width: 1.5vw;
+    cursor: pointer;
+}
+.ShortLink span img{
+    width: 1.5vw;
+    height: 1.5vw;
+    cursor: pointer;
+}
+
+
+.active-status  , .inactive-status{
+    margin-left: 1.8vw;
+}
+
+.inactive-status{
+    color: #B0901E;
+   
+
+}
+
+.active-status{
+    color: #1EB036;
+}
+
+.popup{
+    position: absolute;
+    top: 85%;
+    left:8%;
+    width: 15vw;
+    height: 7vh;
+    font-size: 1.3vw;
+    background-color: white;
+    border: 0.1vw solid #1B48DA;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5vw;
+    justify-content: center;
+
+}
+
+.popup img{
+    width: 2vw;
+    height: 2vw;
+    margin-right: 1.5vw;
+}
+
+
+
+@media (max-width: 1024px) {
+
+
+    .link-table-container {
+        background-color: #F3F7FD;
+        height:100%;
+        overflow:scroll;
+      }
+      
+      .responseTable{
+        padding-top: 1.3vh;
+      }
+      
+      .responseTableHeader{
+        margin-left: 3vw;
+        display: grid; 
+        width: 230vw;
+        grid-template-columns: repeat(7, 1fr);            
+        background-color: rgba(230, 247, 253, 1)     ;
+        height: 5vh;
+      }
+      .tablehead{
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto  0;
+        font-size: 4vw;
+        font-weight: 540;
+    }
+    
+    
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 5vw;
+    }
+      
+    
+    .image img{
+        margin: 0.1vw;
+        width:2vw;
+        cursor: pointer;
+    }
+    
+    
+    .responseTableBody{
+        margin-left: 3vw;
+    }
+    
+    .responseTableData{
+        display: grid;
+        width: 230vw;
+        grid-template-columns: repeat(7, 1fr);            
+        background-color: #ffffff;     ;
+        font-size: 3.2vw;
+    }
+    
+    .tabledata{
+            display: flex;
+            border: 0.05vw solid #F8F8F8;
+                    height: 5.9vh;
+            align-items: center;
+        
+        }
+    
+    .responsedate{
+        margin-left: 3.5vw;
+        width: 30vw;
+    }
+    .OriginalLink,.ShortLink , .remarks ,   .status , .action{
+      margin-left: 3.5vw;
+    }
+    .clicksdata{
+        margin-left: 40%;
+    }
+    
+    .action span{
+        margin-left: 5.5vw;
+    }
+    
+    .action span img{
+        width: 4.5vw;
+        cursor: pointer;
+    }
+    .ShortLink span img{
+        width: 4.5vw;
+        height: 4.5vw;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+    
+    
+    .active-status  , .inactive-status{
+        margin-left: 8.8vw;
+    }
+    
+    .inactive-status{
+        color: #B0901E;
+       
+    
+    }
+    
+    .active-status{
+        color: #1EB036;
+    }
+    
+    .popup{
+        position: absolute;
+        top: 85%;
+        left:8%;
+        width: 35vw;
+        height: 5vh;
+        font-size: 3.3vw;
+        background-color: white;
+        border: 0.1vw solid #1B48DA;
+        display: flex;
+        align-items: center;
+        border-radius: 0.5vw;
+        justify-content: center;
+    
+    }
+    
+    .popup img{
+        width: 2vw;
+        height: 2vw;
+        margin-right: 1.5vw;
+    }
+    
+}

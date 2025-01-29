@@ -1,0 +1,131 @@
+.responseContainer{
+    background-color: #F3F7FD;
+   height:100vh;
+}
+
+.linkTable{
+   padding-top: 1.3vw;
+}
+
+.linkTableHeader{
+   margin-left: 3vw;
+   display: grid; 
+   width: 75vw;
+
+   grid-template-columns: repeat(5, 1fr);            
+   background-color: rgba(230, 247, 253, 1)     ;
+   height: 10vh;
+}
+
+.linktablehead{
+   display: flex;
+   justify-content: space-evenly;
+   margin: auto  0;
+   font-size: 1.5vw;
+   font-weight: 540;
+}
+
+.linkimage{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 2vw;
+
+}
+
+.linkimage img{
+   margin: 0.1vw;
+   width:0.9vw;
+   cursor: pointer;
+}
+
+
+.linkresponseTableBody{
+   margin-left: 3vw;
+}
+
+.linkTableRow{
+   display: grid;
+   width: 75vw;
+   grid-template-columns: repeat(5, 1fr);            
+   background-color: #ffffff;     ;
+   font-size: 1.1vw;
+}
+
+.linkTableCell{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+       border: 0.05vw solid #F8F8F8;
+               height: 6.5vh;
+   }
+
+
+   @media (max-width: 1024px) {
+       .responseContainer{
+           background-color: #F3F7FD;
+          height:100%;
+          overflow: scroll;
+      }
+      
+      .linkTable{
+          padding-top: 1.3vh;
+      }
+      
+      .linkTableHeader{
+          margin-left: 3vw;
+          display: grid; 
+          width: 170vw;
+      
+          grid-template-columns: repeat(5, 1fr);            
+          background-color: rgba(230, 247, 253, 1)     ;
+          height: 5vh;
+      }
+      
+      .linktablehead{
+          display: flex;
+          justify-content: space-evenly;
+          margin: auto  0;
+          font-size: 4vw;
+          font-weight: 540;
+      }
+      
+      .linkimage{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 5vw;
+      
+      }
+      
+      .linkimage img{
+          margin: 0.1vw;
+          width:2vw;
+          cursor: pointer;
+      }
+      
+      
+      .linkresponseTableBody{
+          margin-left: 3vw;
+      }
+      
+      .linkTableRow{
+          display: grid;
+          width: 170vw;
+          grid-template-columns: repeat(5, 1fr);            
+          background-color: #ffffff;     ;
+          font-size: 3.2vw;
+      }
+      
+      .linkTableCell{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+              border: 0.05vw solid #F8F8F8;
+                      height: 5.9vh;
+          }
+      
+
+   }

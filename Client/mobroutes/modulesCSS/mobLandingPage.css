@@ -1,0 +1,156 @@
+.mobLandingPageContainer{
+    
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+
+.mobloginPageHeader{
+    margin-top: 4vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+
+.mobLogo{
+     margin-left: 3vw;
+    width: 40vw;
+     height: 10vw;
+     
+   }
+
+   .MobLoginSigupBtn{
+    margin-left: 15vw;
+    font-style: normal;
+font-weight: 600;
+font-size:  5vw;
+line-height: 1.2rem;
+
+color: #3B3C51;
+margin-right: 2vw;
+cursor: pointer;
+
+   }
+
+
+   .MobLoginLoginBtn{
+    margin-left: 5vw;
+    padding: 1vh 1.5vw;
+    background: #1B48DA;
+    border: 0.1vw solid #1B48DA;
+    border-radius: 1vw;
+    font-size: 5vw;
+    line-height: 1.2rem;
+    cursor: pointer;
+    transition: transform 300ms ease-out; 
+   }
+
+    
+   .MobLoginLoginBtn:active {
+     transform: scale(0.95);
+   }
+
+
+   .MobrightLoginContainerTitle{
+    margin-top: 10vh;
+    margin-left: 3vw;
+  
+   
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7vw;
+    line-height: 1.98vw;
+  
+    color: #3B3C51;
+   }
+
+
+   .Mobloginform{
+    margin-top: 10vh;
+    margin-left: 3vw;
+   }
+
+
+   .Mobloginform input{
+   
+       
+    width: 90vw;
+    height: 5vh;
+    margin-top: 5vh;
+    padding: 0.2vw 1vw;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    line-height: 1.83vw;
+    border: 1px solid #3B3C51;
+    border-radius: 1vw;
+  
+    color: #363636;
+  
+  
+}
+
+
+.Mobloginform input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  -webkit-text-fill-color: #363636; 
+}
+
+.Mobloginform input:-moz-autofill {
+  box-shadow: 0 0 0px 1000px white inset;
+  -moz-text-fill-color: #363636; 
+}
+
+
+
+.MobloginsubmitBtn{
+    box-sizing: border-box;
+    width: 92.5vw;
+    height: 5vh;
+    margin-top: 4vh;
+    background: #1B48DA;
+    border: 1px solid #1B48DA;
+    border-radius: 1vw;
+    font-family: 'Manrope';
+    font-size: 5.5vw;
+    font-weight: 700;
+    line-height: 1.6vw;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: transform 300ms ease-out;
+  }
+  
+  .MobloginsubmitBtn:active {
+    transform: scale(0.95); 
+  }
+
+  .MobloginMassage{
+    margin-top: 3vh;
+
+    width: 93vw;
+    text-align: center;
+    font-size: 5vw;
+    color: #3B3C51;
+  }
+.MobloginMassage span{
+  color: #1B48DA;
+  cursor: pointer;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .MobLoginLoginBtn{
+        padding: 2vh 1.3vw;
+        
+    }
+    .MobloginsubmitBtn{
+        padding: 4vh 0vw;
+    }
+    .Mobloginform input{
+        padding: 2vh 1.3vw;
+    }
+}

@@ -1,0 +1,231 @@
+
+.dashboard-container {
+    margin-top: 5vh;
+   margin-left: 5vw;
+   position: fixed;
+    
+  }
+  
+  .dashboard-container h1 {
+    font-size: 2vw;
+    
+    margin-bottom: 0.5vw;
+  }
+  
+  .dashboard-container h1 span {
+    font-size: 1.8vw;
+    color: #1B48DA;
+    margin-left: 2vw;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80vw;
+    height: 70vh;
+  }
+  
+  .datewise-section,
+.devicewise-section {
+  width: 35vw;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.8vw;
+  padding: 1vw;
+  overflow-y: hidden;
+  transition: overflow 0.3s ease;
+}
+
+
+.datewise-section:hover,
+.devicewise-section:hover {
+  overflow-y: auto; 
+}
+
+
+.datewise-section::-webkit-scrollbar,
+.devicewise-section::-webkit-scrollbar {
+  width: 0.4vw;
+  height: 0.8vw;
+}
+
+
+.datewise-section::-webkit-scrollbar-track,
+.devicewise-section::-webkit-scrollbar-track {
+  background: #f1f1f100;
+  border-radius: 1vw;
+}
+
+
+.datewise-section::-webkit-scrollbar-thumb,
+.devicewise-section::-webkit-scrollbar-thumb {
+  background: #88888823;
+  border-radius: 1vw;
+}
+
+
+.datewise-section::-webkit-scrollbar-thumb:hover,
+.devicewise-section::-webkit-scrollbar-thumb:hover {
+  background: #5555552a;
+}
+
+
+
+  .devicewise-section {
+    margin-right: 3vw;
+  }
+  
+  .datewise-section h3,
+  .devicewise-section h3 {
+    font-size: 1.5vw;
+    color: #1B48DA;
+    margin-bottom: 1vw;
+
+  }
+  
+  
+  .datewise-item,
+  .devicewise-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3vw;
+    margin-bottom: 0.8vw;
+  }
+  
+  .progress-bar {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 20vw;
+    height: 1.5vw;
+    margin: 0 1vw;
+    border-radius: 0.4vw;
+    overflow: hidden;
+  }
+  
+  .progress-bar .fill {
+    height: 100%;
+    background-color: #1d4ed8;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .devicewise-item p{
+    width: 25%;
+  }
+
+  .devicewise-item span,.datewise-item p{
+
+    width: 7%;
+  }
+  .datewise-item span{
+    width: 20%;
+      }
+
+      
+
+      @media  (max-width: 1024px) {
+
+        .dashboard-container {
+            margin-top: 2vh;
+           margin-left: 5vw;
+           height: 100%;
+           width: 100%;
+           position: relative;
+            
+          }
+          
+          .dashboard-container h1 {
+            font-size: 5vw;
+            margin-bottom: 2vh;
+          }
+          
+          .dashboard-container h1 span {
+            font-size: 5vw;
+            color: #1B48DA;
+            margin-left: 2vw;
+          }
+          
+          .dashboard-stats {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin: 0 0;
+            width: 90vw;
+            height: 60vh;
+          }
+          
+          .datewise-section,
+          .devicewise-section {
+            width: 87vw;
+            height: 35vh;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.8vw;
+            padding: 1vw;
+          }
+          .devicewise-section {
+            margin-top: 1vh;
+          }
+          
+          .datewise-section h3,
+          .devicewise-section h3 {
+            font-size: 3.5vw;
+            color: #1B48DA;
+            
+            margin-bottom: 1vw;
+        
+          }
+          
+          
+          .datewise-item,
+          .devicewise-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 3vw;
+            margin-bottom: 0.8vw;
+          }
+
+          
+          .progress-bar {
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            width: 20vw;
+            height: 1.5vw;
+            margin: 0 1vw;
+            border-radius: 0.4vw;
+            overflow: hidden;
+          }
+          
+          .progress-bar .fill {
+            height: 100%;
+            background-color: #1d4ed8;
+            transition: width 0.5s ease-in-out;
+          }
+        
+          .devicewise-item p{
+            width: 25%;
+          }
+        
+          .devicewise-item span,.datewise-item p{
+        
+            width: 7%;
+          }
+          .datewise-item span{
+            width: 20%;
+              }
+
+      }
+
+
+      @media (min-width: 768px) and (max-width: 1024px) {
+        .dashboard-container {
+            margin-top: 6vw;
+           margin-left: 5vw;
+           height: 100%;
+           width: 100%;
+           position: relative;
+            
+          }
+      }

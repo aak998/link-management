@@ -1,0 +1,111 @@
+.MobregisterSigupBtn
+    {
+        
+        padding: 1vh 1.5vw;
+        background: #1B48DA;
+        border: 0.1vw solid #1B48DA;
+        border-radius: 1vw;
+        font-size: 5vw;
+        line-height: 1.2rem;
+        margin-left: 15vw;
+        cursor: pointer;
+        transition: transform 300ms ease-out; 
+      }
+      
+      .MobregisterSigupBtn:active {
+        transform: scale(0.95);
+          }
+
+
+
+.MobregisterLoginBtn{
+    margin-left: 5vw;
+    font-style: normal;
+font-weight: 600;
+font-size:  5vw;
+line-height: 1.2rem;
+
+color: #3B3C51;
+margin-right: 2vw;
+cursor: pointer;
+
+}
+
+
+.Mobregisterform{
+    margin-top: 1vh;
+    margin-left: 3vw;
+}
+
+
+.Mobregisterform input {
+    width: 90vw;
+    height: 5vh;
+    margin-top: 5vh;
+    padding: 0.2vw 1vw;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    line-height: 1.83vw;
+    border: 1px solid #3B3C51;
+    border-radius: 1vw;
+  
+    color: #363636;
+  
+}
+.MobrightregisterContainerTitle{
+    margin-top: 10vh;
+    margin-left: 3vw;
+  
+   
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7vw;
+    line-height: 1.98vw;
+  
+    color: #3B3C51;
+}
+
+
+
+.Mobregisterform input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    -webkit-text-fill-color: #363636; 
+}
+
+.Mobregisterform input:-moz-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
+    -moz-text-fill-color: #363636; 
+  }
+
+
+
+ 
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .MobregisterSigupBtn{
+        padding: 2vh 1.3vw;
+        
+    }
+    
+    .Mobregisterform input{
+        padding: 1vh 1.3vw;
+    }
+    .MobrightregisterContainerTitle{
+        margin-top: 5vh;
+        margin-left: 3vw;
+      
+        font-size: 3vw;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 6vw;
+        line-height: 1.98vw;
+      
+        color: #3B3C51;
+    }
+
+
+}

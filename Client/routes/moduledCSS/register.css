@@ -1,0 +1,74 @@
+.registerSigupBtn
+    {
+        padding: 0.73vw 1.02vw;
+        background: #1B48DA;
+        border: 0.1vw solid #1B48DA;
+        border-radius: 0.44vw;
+        font-size: 1.02vw;
+        line-height: 1.2rem;
+        cursor: pointer;
+        margin-right: 2vw;
+
+        transition: transform 300ms ease-out; 
+      }
+      
+      .registerSigupBtn:active {
+        transform: scale(0.95);
+      }
+
+
+
+.registerLoginBtn{
+    font-style: normal;
+font-weight: 600;
+font-size:1.02vw;
+line-height: 1.2rem;
+
+color: #3B3C51;
+cursor: pointer;
+
+}
+
+
+.registerform{
+    position: absolute;
+    width: 30.1vw;
+    
+    left: 47.89vw;
+    top: 30vh;
+}
+
+
+.registerform input {
+    width: 40vw;
+    height: 1.83vw;
+    margin-top: 2vw;
+    padding: 0.2vw 1vw;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.32vw;
+    line-height: 1.83vw;
+    border: 1px solid #3B3C51;
+    border-radius: 0.44vw;
+    color: #363636;
+    background-color: white;
+}
+
+
+.registerform input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    -webkit-text-fill-color: #363636; 
+}
+
+.registerform input:-moz-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
+    -moz-text-fill-color: #363636; 
+  }
+
+
+
+ 
+
+  
+  

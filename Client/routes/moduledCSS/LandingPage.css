@@ -1,0 +1,160 @@
+.LoginContainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.leftLoginContainer{
+  width: 40vw;
+}
+.loginPageLogo{
+ position: absolute;
+ width: 9.65vw;
+  height: 2.34vw;
+  top: 4.10vh;
+  left: 2.12vw;
+ 
+}
+
+.LoginPageBI{
+    width: 100%;
+    height: 100%;
+
+}
+
+.rightLoginContainer{
+ width: 55%;
+}
+
+.rightloginPageHeader{
+   
+   margin-top: 4vh;
+  display: flex;
+    justify-content: flex-end;
+    height: 3vw;
+    align-items: center;
+    left: 12vw;
+    
+}
+
+.LoginSigupBtn{
+
+
+font-style: normal;
+font-weight: 600;
+font-size:1.02vw;
+line-height: 1.2rem;
+
+color: #3B3C51;
+margin-right: 2vw;
+cursor: pointer;
+
+}
+
+.LoginLoginBtn {
+    padding: 0.73vw 1.02vw;
+    background: #1B48DA;
+    border: 0.1vw solid #1B48DA;
+    border-radius: 0.44vw;
+    font-size: 1.02vw;
+    line-height: 1.2rem;
+    cursor: pointer;
+    transition: transform 300ms ease-out; 
+  }
+  
+  .LoginLoginBtn:active {
+    transform: scale(0.95);
+  }
+  
+  
+  
+
+
+  .rightLoginContainerTitle {
+    position: absolute;
+    
+    height: 1.98vw;
+    left: 47.89vw;
+    top: 9.3vw;
+  
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.46vw;
+    line-height: 1.98vw;
+  
+    color: #3B3C51;
+  }
+
+  
+  .loginform {
+    position: absolute;
+    width: 30.1vw;
+    
+    left: 47.89vw;
+    top: 35.45vh;
+  }
+  .loginform input{
+   
+       
+        width: 40vw;
+        height: 1.83vw;
+        margin-top: 2vw;
+        padding: 0.2vw 1vw;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.32vw;
+        line-height: 1.83vw;
+        border: 1px solid #3B3C51;
+        border-radius: 0.44vw;
+        color: #363636;
+      
+      
+  }
+
+  .loginform input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    -webkit-text-fill-color: #363636; 
+  }
+  
+  .loginform input:-moz-autofill {
+    box-shadow: 0 0 0px 1000px white inset;
+    -moz-text-fill-color: #363636; 
+  }
+  
+
+  .loginsubmitBtn {
+    box-sizing: border-box;
+    width: 42.1vw;
+    height: 2.83vw;
+    margin-top: 1.5vw;
+    background: #1B48DA;
+    border: 1px solid #1B48DA;
+    border-radius: 0.44vw;
+    font-family: 'Manrope';
+    font-size: 1.17vw;
+    font-weight: 700;
+    line-height: 1.6vw;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: transform 300ms ease-out;
+  }
+  
+  .loginsubmitBtn:active {
+    transform: scale(0.95); 
+  }
+  
+
+  .loginMassage{
+    margin-top: 1vw;
+
+    width: 40vw;
+    text-align: center;
+    font-size: 1.17vw;
+    color: #3B3C51;
+  }
+.loginMassage span{
+  color: #1B48DA;
+  cursor: pointer;
+}

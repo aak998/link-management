@@ -1,0 +1,298 @@
+
+.setting-container {
+    margin-top: 15vh;
+  }
+  
+  .setting-form-container {
+    max-width: 40vw;
+    margin: 0 auto;
+  }
+  
+  .setting-form-field {
+    margin-bottom: 2vh;
+    display: flex;
+ justify-content: space-between;
+  }
+  
+  .setting-form-field label {
+    
+    margin-bottom: 1vh;
+    font-weight: 200;
+    font-size: 1.5vw;
+  }
+  
+  .setting-form-field input {
+    width: 75%;
+    padding: 1vh;
+    border: 0.1vw solid #ddd;
+    border-radius: 0.5vw;
+    font-size: 1.1vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+ 
+.setting-form-field input:-webkit-autofill {
+  background-color: #fff !important; 
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important; 
+  color: #333 !important; 
+}
+
+.setting-form-field input:-webkit-autofill:focus {
+  background-color: #fff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  color: #333 !important;
+}
+
+
+
+
+
+  .setting-save-button, .setting-delete-button{
+    width: 100%;
+    padding: 1.2vh;
+    margin-top: 2vh;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+  }
+  
+  .setting-save-button {
+    margin-top: 7vh;
+    background-color: #1B48DA;
+    border: 1px solid #1B48DA;
+
+    color: white;
+  }
+  
+  .setting-delete-button {
+    background-color: #EB0D0D;
+    border: 1px solid #EB0D0D;
+    color: white;
+  }
+  
+  .setting-save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .setting-delete-button:hover {
+    background-color: #e03e3e;
+  }
+  
+  .setting-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .setting-popup {
+    background: white;
+    padding: 2vw;
+    border-radius: 1vw;
+    text-align: center;
+    width: 90vw;
+    max-width: 35vw;
+    box-shadow: 0 0.4vw 0.6vw rgba(0, 0, 0, 0.1);
+  }
+  
+  .setting-popup p {
+    margin-top:2vh;
+    margin-bottom: 4vh;
+    font-size: 1.4vw;
+  }
+  
+  .setting-popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+  }
+  
+  .setting-cancel-button {
+    background-color: #ECECEE;
+
+    color: #333;
+    font-size: 1.2vw;
+    padding: 1vw 4vw;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 0.5vw;
+  }
+  
+  .setting-confirm-button {
+    background-color: #1B48DA;
+    color: white;
+    font-size: 1.2vw;
+    padding: 1vw 4vw;
+    border-style: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+  
+  .setting-cancel-button:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .setting-confirm-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .setting-close-button {
+    position: relative;
+    top: -2vw;
+    left: 18vw;
+    border: none;
+    background: transparent;
+    font-size: 2.2vw;
+    cursor: pointer;
+  }
+  
+
+  @media  (max-width: 1024px) {
+
+.setting-container {
+    margin-top: 2vh;
+  }
+  
+  .setting-form-container {
+    max-width: 70vw;
+    margin: 0 auto;
+  }
+  
+  .setting-form-field {
+    margin-bottom: 1vh;
+    flex-direction: column; 
+  }
+  
+  .setting-form-field label {
+
+    font-weight: 500;
+    font-size: 3.5vw;
+  }
+  
+  .setting-form-field input {
+    width: 100%;
+    margin-top: 1vh;
+    padding: 1vh;
+    border: 0.1vw solid #ddd;
+    border-radius: 1vw;
+    font-size: 3vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .setting-save-button, .setting-delete-button{
+    width: 100%;
+    padding: 1.2vh;
+    margin-top: 2vh;
+    border: none;
+    border-radius: 1.5vw;
+    font-size: 3.5vw;
+    cursor: pointer;
+  }
+  
+  .setting-save-button {
+    margin-top: 7vh;
+    background-color: #1B48DA;
+    border: 1px solid #1B48DA;
+
+    color: white;
+  }
+  
+  .setting-delete-button {
+    background-color: #EB0D0D;
+    border: 1px solid #EB0D0D;
+    color: white;
+  }
+  
+  .setting-save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .setting-delete-button:hover {
+    background-color: #e03e3e;
+  }
+  
+  .setting-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .setting-popup {
+    background: white;
+    padding: 2vw;
+    border-radius: 1vw;
+    text-align: center;
+    width: 90vw;
+    max-width: 80vw;
+    box-shadow: 0 0.4vw 0.6vw rgba(0, 0, 0, 0.1);
+  }
+  
+  .setting-popup p {
+    margin-top:2vh;
+    margin-bottom: 4vh;
+    font-size: 3.5vw;
+  }
+  
+  .setting-popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vh;
+  }
+  
+  .setting-cancel-button {
+    background-color: #ECECEE;
+
+    color: #333;
+    font-size: 5vw;
+    padding: 2vw 6vw;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 0.5vw;
+  }
+  
+  .setting-confirm-button {
+    background-color: #1B48DA;
+    color: white;
+    font-size: 4vw;
+    padding: 1vw 4vw;
+    border-style: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+  
+  .setting-cancel-button:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .setting-confirm-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .setting-close-button {
+    position: relative;
+    top: -1.7vw;
+    left: 39vw;
+    border: none;
+    background: transparent;
+    font-size: 7vw;
+    cursor: pointer;
+  }
+  
+
+  }

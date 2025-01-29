@@ -1,0 +1,183 @@
+.mobleDashboardContainer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  
+  
+  
+  .mobDashboardNavbar{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    margin-right: 3vw;
+    height: 20vh;
+  
+  }
+  
+  .mobnavbar-top, .mobnavbar-right{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .mobnavbar-right{
+    padding-bottom: 1vh;
+    border-bottom: 0.07vw solid #e0e0e0;
+  
+  }
+  
+  .MobDashboardMainLogo{
+    width: 40vw;
+    height: 10vw;
+  }
+  
+  .mobgreeting-container{
+    display: flex;
+      flex-direction: column;
+     
+  }
+  
+  .mobgreeting{
+    font-size: 4vw;
+    font-weight: 400;
+    margin-bottom: 0.22vw;
+  }
+  
+  .mobdate{
+    margin-left: 7vw;
+    font-size: 3vw;
+    color: #8c8c8c;
+  }
+  
+  .mobcreate-button{
+    background-color: #1b48da;
+    color: white;
+    border: none;
+    border-radius: 0.5vw;
+    padding: 1vw 2vw;
+    font-size: 4vw;
+    font-weight: 600;
+    cursor: pointer;
+    width: 30vw;
+    transition: background-color 0.3s ease;
+  }
+  .create-button:hover {
+    background-color: #163bb5;
+  }
+  
+  .mobsearchIcon{
+    width: 5vw;
+    position: relative;
+    left:7%;
+      
+     
+      
+  }
+  
+  .mobsearch-bar{
+    border: 0.2vw solid #ccc;
+    border-radius: 1vw;
+    padding: 1vw 1.5vw;
+    width:45vw;
+    font-size: 4vw;
+    box-sizing: border-box;
+    padding-left: 8vw;
+  }
+  
+  .mobuser-initials{
+    width: 8vw;
+      height: 8vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f7c94d;
+      color: white;
+      font-size: 3.5vw;
+      font-weight: 700;
+      margin-left: 8vw;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+  
+  
+  .mobnavbar-bottom{
+    width: 100vw;
+    height: 5vh;
+    margin-top: 1vh;
+    border-bottom: 0.07vw solid #e0e0e0;
+  
+  }
+  
+  
+  .mobdashboardLinks{
+      display: flex;
+      width: 90%;
+      height: 100vh;
+     
+  justify-content: center;
+  list-style-type: none;
+  
+  
+  }
+  
+  
+  .mobdashboardLinksList {
+    display: flex;
+  
+  }
+  
+  
+  .mobIconImg{
+    width: 4vw;
+    height: 4vw;
+  }
+  
+  .mobdashboardLinks .mobdashboardLinksList {
+    font-size: 3.5vw;
+    color: #3B3C51;
+    list-style-type: none;
+    width: 100%;
+    
+  }
+  
+  .mobdashboardLinks li {
+    height: 5vh;
+    display: flex;
+    padding: 0vw 1vw;
+    align-items: center;
+    cursor: pointer;
+    width: 25vw;
+    
+  }
+  
+  
+  .mobdashboardLinks .mobactive {
+      
+    color: #1B48DA;
+    background-color: #F3F7FD;
+    border-radius: 1vw;
+    
+  }
+  
+  .mobsettinges{
+   border:  0.1vw solid #F6F6F9 ;
+   height: 5vh;
+   display: flex;
+   flex-direction: row;
+   width: 25vw;
+  }
+  
+  .mobuser-popup{
+    position: absolute;
+    top:14.2%;
+    left: 75%;
+    font-size: 4.5vw;
+    padding: 0.5vw 2vw;
+    background-color: white;
+    color: #878BA9;
+    font-weight: 400;
+    border-radius: 1vw;
+    border: 0.07vw solid #e0e0e0;
+  }
