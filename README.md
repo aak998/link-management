@@ -38,7 +38,7 @@ MongoDB is used to store the application's data, including:
 1. Clone the repository:
     ```bash
     git clone "https://github.com/aak998/link-management"
-    cd Mini-Link-Management-Platform
+    cd Link-Management
     ```
 2. Install backend dependencies:
     ```bash
