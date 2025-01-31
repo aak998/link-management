@@ -4,7 +4,7 @@
 The **Link-Management** is a full-stack application for managing and processing links. It utilizes a **React** frontend for an interactive user experience and a **Node.js** backend with **MongoDB** as the database to handle API requests and manage link data.
 
 ## Tech Stack
-- **Frontend**: React.js
+- **Client**: React.js
   - A modern JavaScript library for building dynamic user interfaces.
 - **Backend**: Node.js with Express.js
   - A robust web framework for building scalable backend services.
